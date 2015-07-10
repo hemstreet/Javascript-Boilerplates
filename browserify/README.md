@@ -1,6 +1,6 @@
 *THIS BOILERPLATE USES GULP*
 
-`npm install -g gulp`
+`npm install -g gulp` or `sudo npm install -g gulp` 
 
 ```
 <p align="center">

@@ -1,31 +1,28 @@
-(function($) {
+(function ( $ ) {
 
+    var $el = $( '<div>Hello World!</div>' );
 
-    var $el = $('<div>Hello World!</div>');
+    $( 'body' ).append( $el );
 
-    $('body').append($el);
-
-    console.log('Hello World!');
+    console.log($el[0]);
 
     var obj = {
 
-        hello: "World",
+        hello : "World",
 
-        init: function(config) {
+        init : function ( _options ) {
 
-            //var config = require('./config/config.json');
+            var options = $.extend( {
+                "test" : false
+            }, _options );
 
-            var config = _.assign( config, {
-                "test": true
-            });
-
-            console.log(config, this.hello);
+            console.log( options, this.hello );
 
         }
     };
 
-    obj.init({
-        "test": false
-    });
+    obj.init( {
+        "test" : true
+    } );
 
-})(jQuery);
+})( jQuery );
