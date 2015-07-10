@@ -14,3 +14,7 @@ How to run
  
 Setup
 ---
+
+
+[http://devdocs.io/lodash/](http://devdocs.io/lodash/)
+[https://lodash.com/docs](https://lodash.com/docs)
