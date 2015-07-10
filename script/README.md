@@ -1,24 +1,15 @@
 <p align="center">
-    <br/>
-    <img src="resources/logo.png" alt="Hull Logo"/>
-    <br/>
+    <img src="path/to/logo.png" alt="Logo"/>
 </p>
 <h3>
-Cli tool that provides real time analytics using Mixpanel
-</h3> 
-Setup
----
-
-To get setup, signup for Mixpanel ( currently supported analytics platform ). Create a new
-application and enter your token in the file `config/config.json` 
-```
-{
-  "token" : "123456789"
-} 
-```
-
+    Script Boiler Plate
+</h3>
+ 
 How to run
 ---
-
-To start the script run: 
-`node hull.js`
+ 
+ To start the script run: 
+ `node script.js`
+ 
+Setup
+---
