@@ -1,0 +1,11 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "Javascript Boiler Plate",
+  "main": "script.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "latest"
+  }
+}
