@@ -9,7 +9,7 @@ var obj = {
         //var config = require('./config/config.json');
 
         var config = _.assign( config, {
-            "test": true,
+            "test": true
         });
 
         console.log(config, this.hello);

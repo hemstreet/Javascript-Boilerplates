@@ -9,7 +9,6 @@
     "lodash": "latest",
     "jquery": "latest",
     "gulp" : "latest",
-    "gulp-livereload" : "latest",
     "gulp-browserify" : "latest"
 
   }
