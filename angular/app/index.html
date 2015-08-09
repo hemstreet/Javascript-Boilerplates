@@ -4,28 +4,21 @@
 </head>
 <body >
 
-    Name: <input type="text" ng-model="name" />
-    <br />
-    Your name is {{ name }}
+<div ui-view></div>
 
-<div ng-controller="DemoController">
-    {{ greeting }}
-</div>
-
-<demo-tag></demo-tag>
-
-<script src="asseets/js/vendor/jquery.js" type="text/javascript"></script>
-<script src="asseets/js/vendor/angular.js" type="text/javascript"></script>
+<script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+<script src="bower_components/angular-route/angular-route.min.js" type="text/javascript"></script>
 <script src="app.js" type="text/javascript"></script>
 
 <!-- Controllers -->
-<script src="controllers/demo/demoController.js" type="text/javascript"></script>
+<script src="lib/controllers/demo/demoController.js" type="text/javascript"></script>
 
 <!-- Directives -->
-<script src="directives/demoTag/demoTagDirective.js" type="text/javascript"></script>
+<script src="lib/directives/demoTag/demoTagDirective.js" type="text/javascript"></script>
 
 <!-- Services -->
-<script src="services/demo/demoService.js" type="text/javascript"></script>
+<script src="lib/services/demo/demoService.js" type="text/javascript"></script>
 
 
 </body>
