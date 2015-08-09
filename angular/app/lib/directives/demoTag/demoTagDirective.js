@@ -1,6 +1,6 @@
 angular.module('boilerPlate').directive('demoTag', function() {
     return {
         restrict: 'E',
-        templateUrl: './directives/demoTag/demoTag.html'
+        templateUrl: './lib/directives/demoTag/demoTag.html'
     }
 });

@@ -1,4 +1,7 @@
 angular.module('boilerPlate').controller('MainController', ['$scope', function($scope) {
-    $scope.pageName = 'Home';
+    var vm = this;
+
+    vm.pageName = 'Home';
+
     console.log('main Controller');
 }]);
