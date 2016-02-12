@@ -14,6 +14,10 @@ Socket.prototype.setupListeners = function () {
 
         console.log('User Connected');
 
+        socket.on('disconnect', function() {
+            console.log('User Disconnected');
+        });
+
     });
 
 };
