@@ -1,6 +1,7 @@
 "use strict";
 
-angular.module('boilerPlate').controller('MainController', ['$scope', function($scope) {
+angular.module('boilerPlate').controller('MainController', ['$scope', 'socket', function($scope, socket) {
+
     var vm = this;
 
     vm.pageName = 'Home';
