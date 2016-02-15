@@ -9,9 +9,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies" : {
-    "express" : "latest",
-    "path" : "latest",
-    "angular-route" : "latest"
+  "dependencies": {
+    "angular-route": "latest",
+    "express": "latest",
+    "path": "latest",
+    "yargs": "^3.32.0"
   }
 }
