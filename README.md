@@ -2,6 +2,7 @@
 My collection of most commonly used boilerplates when starting applications.
 
 * `Angular` Angular boilerplate built on top of an express server
+* `Angular2` Angular2 boilerplate
 * `Angular-Socket` Angular / Socket boilerplate built on express server
 * `Arduino-websocket` Arduino Yun ( can be customized for others ) web interface
 * `Browserify` folder is for web apps that need a little help from my friends ( w/ gulp )
