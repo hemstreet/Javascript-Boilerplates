@@ -6,4 +6,4 @@ To start use
 
 Resources
 ==
-(https://johnpapa.net/angular-2-styles/)[https://johnpapa.net/angular-2-styles/]
+[https://johnpapa.net/angular-2-styles/](https://johnpapa.net/angular-2-styles/)
