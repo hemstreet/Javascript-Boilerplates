@@ -1,0 +1,3 @@
+[submodule "angular2-webpack"]
+	path = angular2-webpack
+	url = https://github.com/preboot/angular2-webpack
