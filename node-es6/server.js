@@ -1,9 +1,13 @@
+import { BaseClass } from './BaseClass'
 // Run npm start
-class Polygon {
+class Polygon extends BaseClass {
     constructor() {
+        super();
         let i = 0;
 
         console.log('number', i);
     }
 }
-new Polygon();
+var polygon = new Polygon();
+
+polygon.test("test log from extended class");
