@@ -2,14 +2,17 @@
   "name": "script",
   "version": "1.0.0",
   "description": "Javascript Boiler Plate",
-  "main": "script.js",
+  "main": "dist/js/app.js",
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "lodash": "latest",
     "jquery": "latest",
-    "gulp" : "latest",
-    "gulp-browserify" : "latest"
-
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }

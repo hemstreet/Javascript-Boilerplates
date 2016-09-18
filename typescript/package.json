@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "author": "Jon Hemstreet <jon@hemstreet.io>",
+  "description": "",
+  "main": "bootstrap.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^6.0.1",
+    "gulp-tslint-stylish": "^1.1.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.8",
+    "tslint": "^3.13.0"
+  }
+}

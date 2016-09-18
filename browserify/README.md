@@ -1,6 +1,6 @@
-*THIS BOILERPLATE USES GULP*
+*THIS BOILERPLATE USES GRUNT*
 
-`npm install -g gulp` or `sudo npm install -g gulp` 
+`npm install -g grunt` or `sudo npm install -g grunt` if your permissions are messed up 
 
 ```
 <p align="center">
@@ -14,7 +14,7 @@ Setup
 ---
 ```
 $ npm install
-gulp
+grunt
 ```
 
 
