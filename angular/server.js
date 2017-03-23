@@ -8,7 +8,15 @@ app.get('/', function (req, res) {
     res.sendFile('/index.html');
 });
 
-var server = app.listen(argv.port || config.port, function () {
+var port = 3000;
+
+if (argv.port) {
+    port = argv.port;
+} else if (typeof(config) !== 'undefined' && config.port) {
+    port = config.port
+}
+
+var server = app.listen(port, function () {
     var host = server.address().address;
     var port = server.address().port;
 
